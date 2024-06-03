@@ -1,0 +1,53 @@
+body {
+  background: #dfecff;
+}
+  
+body {
+  color: #0e1771;
+}
+  
+h1 {
+  color: #0e1771;
+}
+  
+p {
+  color: #0e1771
+}
+  
+div {
+  background-color: #d4eaff;
+}
+  
+  
+.error { color: #FFD8C0;}
+p.error { color: #FFD8C0;}
+  
+.happy { color: black;}
+p.happy { color: black;}
+  
+  
+.v {
+   border-color:  #0e1771;
+  border-width: 10px;
+  border-style: solid;
+}
+  
+.smaller_image{
+  width: 200px;
+  height: 200px;
+}
+
+#submit {
+  color: #d4eaff;
+  margin: auto;
+  background-color: #2c4967;
+  padding: 10px;
+  border-radius: 5px;
+  border: 5px solid #d4eaff;
+}
+  
+#submit:hover {
+  background-color: #d4eaff;
+  border: 5px solid #2c4967;
+  color: #2c4967;
+}

@@ -1,7 +1,42 @@
 body {
-    background-color: #FFF4EF ;
+    background-image: url(plane.jpg);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-img{
-    height:400px;
+
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#start {
+    color: #d4eaff;
+    margin: auto;
+    background-color: #2c4967;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #d4eaff;
+}
+
+#start:hover {
+    background-color: #d4eaff;
+    border: 5px solid #2c4967;
+    color: #2c4967;
+    }
