@@ -21,7 +21,7 @@ async function createButtons(containerId) {
     const container = document.getElementById(containerId);
     console.log(countries)
 
-    countries.forEach((country, index) => {
+    countries.CountryNames.forEach((country, index) => {
         const radioInput = document.createElement('input');
         radioInput.type = 'radio';
         radioInput.name = 'countries';
@@ -40,3 +40,10 @@ async function createButtons(containerId) {
 }
 
 createButtons('radio-container');
+
+
+function change() {
+    if (radio-container===Italy){
+        window.location.href="../italy/italy.html";
+    }
+}
