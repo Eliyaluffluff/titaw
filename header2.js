@@ -95,13 +95,13 @@ function showMenu(){
 }
 
 function clicky1(){
-    window.location.href="../index.html";
+    window.location.href="index.html";
 }
     
 function clicky2(){
-    window.location.href="../about/aboutme.html";
+    window.location.href="about/aboutme.html";
 }
 
 function clicky3(){
-    window.location.href="../chart/chart.html";
+    window.location.href="chart/chart.html";
 }
