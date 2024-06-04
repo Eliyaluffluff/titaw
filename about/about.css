@@ -1,0 +1,25 @@
+body {
+    background: #dfecff;
+  }
+    
+  body {
+    color: #0e1771;
+  }
+    
+  h1 {
+    color: #0e1771;
+  }
+    
+  p {
+    color: #0e1771
+  }
+    
+  div {
+    background-color: #d4eaff;
+  }
+
+  .pic{
+    margin-left: 150px;
+    margin-right: auto;
+
+  }
