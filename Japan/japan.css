@@ -1,0 +1,18 @@
+h1 {
+    color:#a01616;
+}
+h2 {
+    color:#b02222;
+}
+
+#japan {
+    opacity: 0.7;
+    position: absolute;
+}
+img{
+
+    top: 0;
+    left: 0;
+    width: 142%;
+    height: 98vh; 
+}

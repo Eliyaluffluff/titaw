@@ -23,28 +23,3 @@ async function fetchDemo(){
 }
 
 
-async function chartIt(){
-    const data = await fetchDemo();
-    const ctx = document.getElementById('myChart');
-    ctx.height = 50;
-    const myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: data.CountryNames,
-        datasets: [{
-        label: 'popularitys',
-        data: data.popularitys,
-        backgroundColor: 'rgb(50, 113, 180)',
-        borderColor: 'rgb(35, 66, 97)',
-        borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-        y: {
-            beginAtZero: true,
-        }
-        }
-}
-});
-}

@@ -42,8 +42,23 @@ async function createButtons(containerId) {
 createButtons('radio-container');
 
 
-function change() {
-    if (radio-container===Italy){
-        window.location.href="../italy/italy.html";
-    }
-}
+document.getElementById('suby').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const selectedCountry = document.querySelector('input[name="countries"]:checked');
+    if (selectedCountry) {
+        const countryValue = selectedCountry.value;
+        if (countryValue === 'Italy') {
+            window.location.href = "../italy/italy.html";
+        }
+        if (countryValue === 'Japan') {
+            window.location.href = "../japan/japan.html";
+        }
+        if (countryValue === 'France') {
+            window.location.href = "../france/france.html";
+        }
+        if (countryValue === 'Brazil') {
+            window.location.href = "../brazil/brazil.html";
+        }
+   }
+});

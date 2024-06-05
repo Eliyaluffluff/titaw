@@ -1,0 +1,17 @@
+h1 {
+    color:#111741;
+}
+h2 {
+    color:#b02222;
+}
+
+#france {
+    opacity: 0.7;
+    position: absolute;
+}
+img{
+    top: 0;
+    left: 0;
+    width: 145%;
+    height: 98vh; 
+}
