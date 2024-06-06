@@ -31,7 +31,7 @@ async function chartIt(){
     data: {
         labels: data.CountryNames,
         datasets: [{
-        label: 'popularitys',
+        label: 'popular',
         data: data.popularitys,
         backgroundColor: 'rgb(50, 113, 180)',
         borderColor: 'rgb(35, 66, 97)',
