@@ -60,5 +60,35 @@ document.getElementById('suby').addEventListener('submit', function(event) {
         if (countryValue === 'Brazil') {
             window.location.href = "../brazil/brazil.html";
         }
+        if (countryValue === 'Argentina') {
+            window.location.href = "../argentina/argentina.html";
+        }
+        if (countryValue === 'Canada') {
+            window.location.href = "../canada/canada.html";
+        }
+        if (countryValue === 'USA') {
+            window.location.href = "../USA/USA.html";
+        }
+        if (countryValue === 'Australia') {
+            window.location.href = "../australia/australia.html";
+        }
+        if (countryValue === 'China') {
+            window.location.href = "../china/china.html";
+        }
+        if (countryValue === 'Egypt') {
+            window.location.href = "../egypt/egypt.html";
+        }
+        if (countryValue === 'Fiji') {
+            window.location.href = "../fiji/fiji.html";
+        }
+        if (countryValue === 'Germany') {
+            window.location.href = "../germany/germany.html";
+        }
+        if (countryValue === 'India') {
+            window.location.href = "../india/india.html";
+        }
+        if (countryValue === 'New Zealand') {
+            window.location.href = "../NewZealand/NewZealand.html";
+        }
    }
 });
