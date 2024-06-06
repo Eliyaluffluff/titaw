@@ -35,6 +35,7 @@ async function chartIt(){
         data: data.popularitys,
         backgroundColor: 'rgb(50, 113, 180)',
         borderColor: 'rgb(35, 66, 97)',
+        Color: 'rgb(0, 0, 0)',
         borderWidth: 1
         }]
     },

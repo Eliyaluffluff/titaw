@@ -1,6 +1,6 @@
 
 async function fetchDemo(){
-    const response = await fetch("titaw2.csv");
+    const response = await fetch("../italy/titaw2.csv");
     const data = await response.text();
     console.log(data)
     let CountryNames = []
@@ -12,7 +12,7 @@ async function fetchDemo(){
         const columns = row.split(',');
         const CountryName = columns[1];
         // console.log(CountryName)
-        if(CountryName=="Italy"){
+        if(CountryName=="Japan"){
             atractions = []
             atractions.push(columns[4])
             atractions.push(columns[5])
